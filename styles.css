@@ -1,0 +1,80 @@
+
+.background-image{
+
+    background-image: url('./assets/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+.login-form,
+.login-form * {
+        
+        box-sizing: border-box;
+        font-family: "poppins", sans-serif;
+        background-color: white;
+        margin: 10px;
+}
+
+.login-form{
+
+    max-width: 350px;
+    margin: 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 15px rgba(0,0,0,0.25);
+
+}
+
+.login-form-logo-container{
+
+    padding-top: 150px;
+    text-align: center;
+    margin: 20px;
+
+}
+
+.login-form-header{
+
+    text-align: center;
+}
+
+.login-form-header h1{
+
+    color: #000;
+}
+
+.login-form-input{
+
+    width: 95%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    outline: none;
+
+}
+
+.login-form-button{
+
+    padding: 10px;
+    color: #ddd;
+    font-weight: bold;
+    background: #67cd31;
+    width: 95%;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+.link{
+
+    text-align: center;
+    
+}
+
+.link a{
+
+    color: #009ad9;
+}
